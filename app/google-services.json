@@ -1,0 +1,86 @@
+{
+  "project_info": {
+    "project_number": "751524131200",
+    "firebase_url": "https://earnest-vine-151106.firebaseio.com",
+    "project_id": "earnest-vine-151106",
+    "storage_bucket": "earnest-vine-151106.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:751524131200:android:7b8a568cbe6f29f2",
+        "android_client_info": {
+          "package_name": "busdetails.goooglepushnotification"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "751524131200-2tbq0mi9eqg2os7k39eo5pnfnjk0ngpk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJgPLWDTogKkExET33T2k88CfjcNk1E2s"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:751524131200:android:0d54d25f4d8b75f5",
+        "android_client_info": {
+          "package_name": "hi_focus.androiduser2.deva.com.eatwell"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "751524131200-kkrc7l7r7q7kafhqh9e2638k2vc64ovk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "hi_focus.androiduser2.deva.com.eatwell",
+            "certificate_hash": "b04c7a6740be5dcc881014409dbd596305ce4af4"
+          }
+        },
+        {
+          "client_id": "751524131200-2tbq0mi9eqg2os7k39eo5pnfnjk0ngpk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJgPLWDTogKkExET33T2k88CfjcNk1E2s"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "751524131200-2tbq0mi9eqg2os7k39eo5pnfnjk0ngpk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

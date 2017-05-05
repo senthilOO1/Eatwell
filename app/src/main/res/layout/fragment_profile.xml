@@ -1,0 +1,221 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#c1c1c1"
+    tools:context="hi_focus.androiduser2.deva.com.eatwell.profile.Profile">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_weight="1">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:background="@drawable/backimg">
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="125dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp">
+
+                    <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:id="@+id/card_view_date"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        app:cardCornerRadius="2dp"
+                        android:paddingLeft="15dp"
+                        android:layout_marginTop="50dp">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginTop="48dp"
+                            android:textSize="12dp"
+                            android:text="Name"
+                            android:textColor="#69c730"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginTop="8dp"
+                            android:textSize="16dp"
+                            android:text="Senthil Venkatesan"
+                            android:textColor="#484848"/>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="0.25dp"
+                                android:layout_marginTop="6dp"
+                                android:background="#c1c1c1"></LinearLayout>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+
+                                android:layout_marginLeft="12dp"
+                                android:layout_marginTop="8dp"
+                                android:textSize="12dp"
+                                android:text="E-mail"
+                                android:textColor="#69c730"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="12dp"
+                                android:layout_marginTop="8dp"
+                                android:textSize="16dp"
+                                android:text="senthilyuvi66@gmail.com"
+                                android:textColor="#484848"/>
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="0.25dp"
+                                android:layout_marginTop="6dp"
+                                android:background="#c1c1c1"></LinearLayout>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+
+                                android:layout_marginLeft="12dp"
+                                android:layout_marginTop="8dp"
+                                android:textSize="12dp"
+                                android:text="Contact"
+                                android:textColor="#69c730"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="12dp"
+                                android:layout_marginTop="8dp"
+                                android:textSize="16dp"
+                                android:text="+91 8148153229"
+                                android:textColor="#484848"/>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="0.25dp"
+                                android:layout_marginTop="6dp"
+                                android:background="#c1c1c1"></LinearLayout>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+
+                                android:layout_marginLeft="12dp"
+                                android:layout_marginTop="8dp"
+                                android:textSize="12dp"
+                                android:text="Age"
+                                android:textColor="#69c730"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="12dp"
+                                android:layout_marginTop="8dp"
+                                android:textSize="16dp"
+                                android:text="28"
+                                android:textColor="#484848"/>
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="0.25dp"
+                                android:layout_marginTop="6dp"
+                                android:background="#c1c1c1"></LinearLayout>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+
+                                android:layout_marginLeft="12dp"
+                                android:layout_marginTop="8dp"
+                                android:textSize="12dp"
+                                android:text="Gender"
+                                android:textColor="#69c730"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="12dp"
+                                android:layout_marginTop="8dp"
+                                android:textSize="16dp"
+                                android:text="Male"
+                                android:textColor="#484848"/>
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="0.25dp"
+                                android:layout_marginTop="6dp"
+                                android:background="#c1c1c1"></LinearLayout>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+
+                                android:layout_marginLeft="12dp"
+                                android:layout_marginTop="8dp"
+                                android:textSize="12dp"
+                                android:text="City"
+                                android:textColor="#69c730"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="12dp"
+                                android:layout_marginTop="8dp"
+                                android:layout_marginBottom="8dp"
+                                android:textSize="16dp"
+                                android:text="Salem"
+                                android:textColor="#484848"/>
+
+
+                        </LinearLayout>
+                    </android.support.v7.widget.CardView>
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="78dp"
+                    android:layout_height="78dp"
+                    android:gravity="center"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="125dp"
+                    android:background="@drawable/backboard">
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:src="@drawable/dd"
+                        android:background="@drawable/background_circle"/>
+                </LinearLayout>
+            </RelativeLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
+</LinearLayout>
